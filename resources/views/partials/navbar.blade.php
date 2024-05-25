@@ -37,7 +37,7 @@
                         </form>
                     </li>
                 </ul>
-            </div>
+            </div>       
         @endif
     </div>
 </nav>

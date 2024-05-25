@@ -11,7 +11,7 @@ Route::get('/login', function () {
     return view('auth.login');
 });
 
-Route::get('/logout', function () {
+Route::post('/logout', function () {
     if (Auth::check()) {
         Auth::logout();
     }
